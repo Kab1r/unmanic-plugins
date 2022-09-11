@@ -284,7 +284,7 @@ jobs:
     - name: Deploy repository
       if: success() && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/official' || github.ref == 'refs/heads/main')
       uses: s0/git-publish-subdir-action@develop
-      enmain:
+      env:
         REPO: self
         BRANCH: repo
         FOLDER: repo
