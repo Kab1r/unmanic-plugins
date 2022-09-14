@@ -380,7 +380,7 @@ def on_worker_process(data):
         ffmpeg_args = mapper.get_ffmpeg_args()
 
         # Apply ffmpeg args to command
-        data['exec_command'] = ['ffmpeg']
+        data['exec_command'] = ['/usr/bin/ffmpeg']
         data['exec_command'] += ffmpeg_args
 
         # Set the parser
