@@ -1,0 +1,20 @@
+{
+    "author": "Kab1r",
+    "compatibility": [
+        1,
+        2
+    ],
+    "description": "Ensure all video streams are encoded with the AV1 codec using the SVT encoder.",
+    "icon": "https://raw.githubusercontent.com/Kab1r/unmanic.plugin.encoder_video_av1_libsvtav1/master/icon.png",
+    "id": "encoder_video_av1_libsvtav1",
+    "name": "Video Encoder AV1 - SVT (CPU)",
+    "platform": [
+        "all"
+    ],
+    "priorities": {
+        "on_library_management_file_test": 99,
+        "on_worker_process": 0
+    },
+    "tags": "video,encoder,ffmpeg,library file test",
+    "version": "0.0.9"
+}

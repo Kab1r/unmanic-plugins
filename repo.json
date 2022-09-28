@@ -1,0 +1,51 @@
+{
+    "repo": {
+        "id": "repository.Kab1r",
+        "name": "Kabir's Unmannic Repo",
+        "icon": "",
+        "repo_data_directory": "https://raw.githubusercontent.com/Kab1r/unmanic-plugins/repo/",
+        "repo_data_url": "https://raw.githubusercontent.com/Kab1r/unmanic-plugins/repo/repo.json"
+    },
+    "plugins": [
+        {
+            "author": "Kab1r",
+            "compatibility": [
+                1,
+                2
+            ],
+            "description": "Ensure all video streams are encoded with the AV1 codec using the SVT encoder.",
+            "icon": "https://raw.githubusercontent.com/Kab1r/unmanic.plugin.encoder_video_av1_libsvtav1/master/icon.png",
+            "id": "encoder_video_av1_libsvtav1",
+            "name": "Video Encoder AV1 - SVT (CPU)",
+            "platform": [
+                "all"
+            ],
+            "priorities": {
+                "on_library_management_file_test": 99,
+                "on_worker_process": 0
+            },
+            "tags": "video,encoder,ffmpeg,library file test",
+            "version": "0.0.9"
+        },
+        {
+            "author": "Kab1r",
+            "compatibility": [
+                1,
+                2
+            ],
+            "description": "Ensure all video streams are encoded with the AV1 codec using the libaom encoder.",
+            "icon": "https://raw.githubusercontent.com/Kab1r/unmanic.plugin.encoder_video_av1_libaom/master/icon.png",
+            "id": "encoder_video_av1_libaom",
+            "name": "Video Encoder AV1 - libaom (CPU)",
+            "platform": [
+                "all"
+            ],
+            "priorities": {
+                "on_library_management_file_test": 99,
+                "on_worker_process": 0
+            },
+            "tags": "video,encoder,ffmpeg,library file test",
+            "version": "0.0.9"
+        }
+    ]
+}
